@@ -9,7 +9,7 @@ import reducer from './reducers';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
-const stre = createStore(reducer);
+const store = createStore(reducer);
 
 ReactDOM.render(
     <Provider store={store}>
